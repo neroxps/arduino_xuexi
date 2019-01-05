@@ -61,7 +61,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
 
 ### 3、将 byte* 转换成 String 然后用 equals 方法对比
 
-```
+```c
 void callback(char* topic, byte* payload, unsigned int length) {
 
   Serial.println ("Callback ....");
